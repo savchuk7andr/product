@@ -1,0 +1,145 @@
+.container{
+    width: 1328px;
+    padding: 0 20px;
+    margin: 0 auto;
+    outline: 3px solid red;
+}
+
+.header{
+    background: #000;
+}
+
+.header-section{
+    padding: 25px 0 20px;
+}
+
+.logo{
+    display: flex;
+    justify-self: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 175px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+}
+
+.nav-link{
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.21;
+font-variant: all-small-caps;
+letter-spacing: 2.28px;
+}
+
+.main{
+    background-image: url(./img/bcg.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero{
+    padding: 173px 0 222px;
+}
+
+.hero .container{
+    background: #000;
+    width: 1278px;
+    height: 794px;
+}
+
+.hero-title{
+    color: #FD7D54;
+text-align: center;
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.22;
+letter-spacing: 19.2px;
+margin-bottom: 18px;
+}
+
+.hero-text{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: 0.6px;
+margin-bottom: 50px;
+}
+
+.product-img{
+    margin-bottom: 35px;
+}
+
+.product-title{
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 27px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.22;
+font-variant: all-small-caps;
+letter-spacing: 3.24px;
+margin-bottom: 35px;
+}
+
+.product-text{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.39;
+letter-spacing: 0.54px;
+margin-bottom: 50px;
+}
+
+.product-link{
+color: #41C3F6;
+text-align: center;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.21;
+font-variant: all-small-caps;
+letter-spacing: 2.28px;
+}
+
+.footer{
+    background: #000;
+}
+
+.footer-section{
+    padding: 16px 0 20px;
+}
+
+.footer-text{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.25;
+letter-spacing: 1.2px;
+}

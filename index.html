@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -11,41 +14,43 @@
     <header class="header">
         <section class="header-section">
         <div class="container">
-        <ul>
-            <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">DISCOUNTS</a></li>
+            <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#">PRODUCTS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">DISCOUNTS</a></li>
         </ul>
-        <a href="./index.html"><img src="./img/logo.png" alt="logo"></a>
-        <ul>
-            <li><a href="#">OUR PARTNERS</a></li>
-            <li><a href="#">ABOUT US</a></li>
+        <a class="logo" href="./index.html"><img class="logo-img" src="./img/logo.png" alt="logo"></a>
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#">OUR PARTNERS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
         </ul>
+        </nav>
     </div>
     </section>
     </header>
     <main class="main">
-        <section class="main-section">
+        <section class="hero">
         <div class="container">
-<h1>products</h1>
-<p>Affordable quality, every time.</p>
-<ul>
-    <li>
-        <img src="./img/ellipse.png" alt="empty ellipse">
-        <h2>MATTE</h2>
-        <p>a subtle but elegant finish for low-touch and delicate surfaces</p>
-        <a href="#">EXPLORE</a>
+<h1 class="hero-title">products</h1>
+<p class="hero-text">Affordable quality, every time.</p>
+<ul class="product-list">
+    <li class="product-item">
+        <img class="product-img" src="./img/ellipse.png" alt="empty ellipse">
+        <h2 class="product-title">MATTE</h2>
+        <p class="product-text">a subtle but elegant finish for low-touch and delicate surfaces</p>
+        <a class="product-link" href="#">EXPLORE</a>
     </li>
-    <li>
-        <img src="./img/second-ellipse.png" alt="little shining ellips">
-        <h2>SEMI-GLOSS</h2>
-        <p>our signature finish for high-wear parts, details and surfaces</p>
-        <a href="#">EXPLORE</a>
+    <li class="product-item">
+        <img class="product-img" src="./img/second-ellipse.png" alt="little shining ellips">
+        <h2 class="product-title">SEMI-GLOSS</h2>
+        <p class="product-text">our signature finish for high-wear parts, details and surfaces</p>
+        <a class="product-link" href="#">EXPLORE</a>
     </li>
-    <li>
-        <img src="./img/third-ellipse.png" alt="fully shining ellipse">
-        <h2>HIGH-GLOSS</h2>
-        <p>an eye-stopping shine best for metal and other smooth surfaces</p>
-        <a href="#">EXPLORE</a>
+    <li class="product-item">
+        <img class="product-img" src="./img/third-ellipse.png" alt="fully shining ellipse">
+        <h2 class="product-title">HIGH-GLOSS</h2>
+        <p class="product-text">an eye-stopping shine best for metal and other smooth surfaces</p>
+        <a class="product-link" href="#">EXPLORE</a>
     </li>
 </ul>
     </div>
@@ -54,7 +59,7 @@
     <footer class="footer">
         <section class="footer-section">
         <div class="container">
-<p>© GEM PAINT CO</p>
+<p class="footer-text">© GEM PAINT CO</p>
     </div>
     </section>
     </footer>
