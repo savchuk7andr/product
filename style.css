@@ -52,6 +52,9 @@ letter-spacing: 2.28px;
 
 .hero{
     padding: 173px 0 222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero .container{
@@ -84,8 +87,21 @@ letter-spacing: 0.6px;
 margin-bottom: 50px;
 }
 
+.product-list{
+    display: flex;
+    flex-direction: row;
+gap: 86px;
+justify-content: space-around;
+}
+
+.product-item{
+    outline: 4px solid #fff;
+    width: 293px;
+    justify-content: center;
+}
+
 .product-img{
-    margin-bottom: 35px;
+    margin: 46px 83px 33px;
 }
 
 .product-title{
@@ -98,7 +114,7 @@ font-weight: 800;
 line-height: 1.22;
 font-variant: all-small-caps;
 letter-spacing: 3.24px;
-margin-bottom: 35px;
+margin: 0 0 35px;
 }
 
 .product-text{
@@ -110,7 +126,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 1.39;
 letter-spacing: 0.54px;
-margin-bottom: 50px;
+margin: 0 33px 50px;
 }
 
 .product-link{
@@ -123,6 +139,7 @@ font-weight: 800;
 line-height: 1.21;
 font-variant: all-small-caps;
 letter-spacing: 2.28px;
+padding: 0 100px 25px;
 }
 
 .footer{
