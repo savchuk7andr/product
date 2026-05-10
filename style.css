@@ -1,8 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container{
     width: 1328px;
     padding: 0 20px;
     margin: 0 auto;
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
 }
 
 .header{
